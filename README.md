@@ -9,13 +9,13 @@ I built this as a production-style app where a single system supports:
 - **Booking-style flows** (appointments, follow-ups)
 - Payments (via Stripe)
 
-It’s a good proxy for how I’d approach **PartyPlace**:
+It’s a good proxy for how I’d approach:
 - Matching people to the right “service” (doctors ↔ patients, like hosts ↔ venues)
 - Building flows that are fast and easy to use
 - Owning the stack end-to-end, from database to UI
 
 ## Tech Stack
-- Frontend: React, Tailwind (if used), React Router
+- Frontend: React, Tailwind, React Router
 - Backend: Node.js, Express.js
 - Database: MongoDB (MongoDB Atlas)
 - Payments: Stripe (test mode)
